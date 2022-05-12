@@ -1,0 +1,11 @@
+.photo-grid__item {
+    width: 284px;
+    image-rendering: crisp-edges;
+}
+
+@media screen and (max-width: 1279px) {
+    .photo-grid__item {
+        width: 100%;
+    }
+}
+

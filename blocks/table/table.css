@@ -1,0 +1,38 @@
+.table {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    list-style-type: none;
+    z-index: 4;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 767px) {
+  .table {
+       display: grid;
+       flex-direction: column-reverse;
+       list-style-type: none;
+       width: 92vw;
+       grid-template-columns:repeat(2, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       row-gap: 1,4vw;
+       column-gap: 1,4vw;
+ }
+  }
+
+ @media screen and (max-width: 424px) {
+   .table{
+       width: 90vw;
+       margin: 92px auto 0 auto;
+       list-style-type: none;
+       grid-template-columns:repeat(1, 1fr);
+       grid-template-rows: repeat(4, 1fr);
+       row-gap: 2vw;
+   }
+ }
+
+

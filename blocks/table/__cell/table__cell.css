@@ -1,0 +1,13 @@
+.table__cell {
+   width: 20%;
+   vertical-align: top;
+   margin-top: 60px;
+   z-index: 4;
+}
+
+@media screen and (max-width: 767px) {
+  .table__cell {
+      width: 30vw;
+      align-items: center;
+      margin: 20px auto 0 auto;
+  }
